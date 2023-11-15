@@ -1,0 +1,495 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://i.imgur.com/gxSWSg2.png);
+}
+.logo {
+  width: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+.logo1{
+  width: 70px;
+  border-radius: 50%;
+}
+.img4{
+  width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  margin: 0 auto; 
+}
+.container{
+    max-width: 100%;
+    text-align: center;
+    background-image: url(https://i.imgur.com/5G2vHuA.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+
+}
+.content{
+    margin-top: 20px;
+    text-align: left;
+}
+.content1{
+  margin-top: 20px;
+  text-align: left;
+}
+.padding{
+  padding: 0 5px;
+
+}
+.icon-foot{
+  width: 40px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.custom-h2{
+    font-size: 36px;
+    font-family: 'Acme', sans-serif;
+}
+.left-align{
+    text-align: left;
+}
+.custom-li1 {
+      font-size: 18px;
+      text-align: left;
+      margin-left: 10px;
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Espacio entre las columnas */
+  align-items: center; /* Centra verticalmente el contenido */
+  width: 600px;
+  background-color: white;
+  margin-left: 390px;
+  margin-top: -570px;
+}
+
+.article-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.article-grid h1 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+
+.article-grid p {
+  font-size: 16px;
+  color: #666;
+}
+p{
+    text-align: left;
+}
+article {
+    border: solid 2px;
+    width: 307px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.article1{
+    border: none;
+    display: inline-block;
+}
+
+#texto{
+  display: inline-block;
+  vertical-align: top;
+}
+.p1{
+  text-align: left;
+  padding-left: 15px;
+}
+li{
+  text-align: left;
+  padding-left: 10px;
+}
+.flotante{
+    float: left;
+    display: flex;
+    margin-right: 10px;
+
+}
+.center-align{
+    text-align: center;
+}
+.right-align{
+    text-align: right;
+
+
+}
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    margin-top: 5px;
+    margin-left: 27px;
+  }
+.article-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3x;
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+}
+.imagen-articulo{
+    max-width: 100%;
+    height: 350px;
+    width: 250px;
+}
+.txtright{
+float: right;
+width: 120px;
+height: 120px;
+margin-top: -1px;
+margin-right: 3px
+}
+.txtarticle{
+    font-size: 20px;
+    text-align: left;
+}
+.articleinicial{
+    border: solid 2px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: black;
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+.veintepx{
+    font-size: 20px;
+    text-align: left;
+
+}
+.subtitulos{
+    font-family: 'Acme', sans-serif;
+}
+.custom-li2{
+    text-align: center;
+    font-size: 22px;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  #nav-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  h2{
+    text-align: center;
+  }
+  .carousel {
+    position: relative;
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid black;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container img {
+  width: 95%;
+    margin: 10px; /* Espacio entre imágenes */
+}
+
+.image-container p {
+    font-size: 20px; /* Tamaño de fuente del título */
+    text-align: center;
+}
+  .carousel img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px;
+    opacity: 0.9;
+
+  }
+  
+  .carousel img.active {
+    display: block;
+
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carousel-controls span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: -12px;
+    color: white;
+  }
+  
+  .carousel-controls .prev {
+    float: left;
+    margin-left: 10px;
+    text-shadow: 1px 3px black;
+  }
+  
+  .carousel-controls .next {
+    float: right;
+    margin-right: 10px;
+    text-shadow: 1px 3px black;
+  }
+  .article3{
+    margin-top: 10px;
+    border-radius: 0px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  h3{
+  text-align: left;
+
+  }
+  .img2{
+    width: 100vw;
+    margin-top: -15px;
+  }
+  .img-minecraft2{
+    width: 95.4%;
+    margin-top: -px;
+  }
+  
+  .container2{
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: -3.422px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(211, 47, 47, 0.2);
+    text-align: center;
+    background-image: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/bg-wool-light.png);
+}
+.img3{
+  width: 100%;
+  margin-top: -5.3px;
+  margin-right: 5px;
+}
+.article-section2{
+  border-color: transparent;
+  background-color: white;
+  align-content: center;
+  display: flex;
+
+}
+.article-container3{
+  display: flex;
+  flex: 1;
+  margin-top: -379px;
+  margin-left: 100px;
+}
+.article4{
+  margin-top: -153px;
+  margin-left: 181px;
+  border: none;
+  background-color: transparent;
+}
+
+.articleinicial1{
+  width: 600px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 15px;
+  margin-top: -153px;
+  margin-left: 40px;
+
+}
+#foot{
+  border-top:solid 2px;
+  background: url("https://i.imgur.com/gFDnXoe.png") no-repeat center;
+  background-size: 100%;
+  padding: 20px 20px 50px;
+  text-align: center;
+}
+.footer-icos {
+  margin: 20px 0;
+  color: #ddd;
+}
+.footer-logo img{
+  width: 250px;
+  margin: 40px 0;
+}
+footer .other li {
+  letter-spacing: 0;
+  background: url("https://fate-go.us/assets/img/common/item_mark_gold.png") no-repeat right center;
+  background-size: 11px;
+  padding: 5px 28px 5px 14px;
+  display: inline-block;
+}
+footer .other li a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 0;
+  position: relative;
+  color: rgb(168, 166, 166);
+}
+footer p{
+  color: rgb(168, 166, 166);
+  text-align: center;
+}
+.map-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 00px;
+  background-color: transparent;
+
+}
+
+.map-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+.map-container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 00px;
+
+}
+.map-item img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(211, 47, 47, 3);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tdm-social-item-wrap {
+  display: inline-block;
+
+}
+.tdi_131 .tdm-social-item {
+  width: 39.2px;
+  height: 39.2px;
+  margin: 7px 14px 7px 0;
+}
+.tdm-social-wrappertds-social4tdi_131{
+  filter: hue-rotate(150deg);
+}
+form {
+background: url(https://i.imgur.com/5G2vHuA.png);
+background-size: 100%;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input, textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+background-color: #4caf50;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+@media screen and (pointer:coarse) {
+  header {
+      width: 100%;
+  }
+  .logo{
+    display: block;
+  }
+  nav{
+    display: block;
+  }
+  .container {
+       width: 100%;/* Agregué un padding en dispositivos móviles para separar del borde */
+  }
+
+  .article-grid {
+      grid-template-columns: 1fr; /* Cambié el diseño de la cuadrícula en dispositivos móviles */
+      margin-left: 0; /* Elimina el margen izquierdo en dispositivos móviles */
+  }
+
+  .logo1 {
+    display: none;
+  }
+  .mobs{
+    display: none;
+  }
+  .enedea1{
+    display: none;
+  }
+
+  
+  
+}
